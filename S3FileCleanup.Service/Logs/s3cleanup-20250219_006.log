@@ -1,0 +1,102 @@
+2025-02-19 15:15:03.528 +08:00 [DBG] Hosting starting
+2025-02-19 15:15:03.681 +08:00 [INF] Default Quartz.NET properties loaded from embedded resource file
+2025-02-19 15:15:03.717 +08:00 [DBG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2025-02-19 15:15:03.732 +08:00 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2025-02-19 15:15:03.740 +08:00 [INF] Quartz Scheduler created
+2025-02-19 15:15:03.743 +08:00 [INF] RAMJobStore initialized.
+2025-02-19 15:15:03.746 +08:00 [INF] Quartz Scheduler 3.13.1.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2025-02-19 15:15:03.748 +08:00 [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2025-02-19 15:15:03.767 +08:00 [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2025-02-19 15:15:03.771 +08:00 [INF] JobFactory set to: S3FileCleanup.Shared.Helpers.SingletonJobFactory
+2025-02-19 15:15:03.801 +08:00 [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2025-02-19 15:15:03.804 +08:00 [DBG] Batch acquisition of 0 triggers
+2025-02-19 15:15:03.806 +08:00 [INF] File cleanup service started at: "2025-02-19T07:15:03.8054482Z"
+2025-02-19 15:15:03.817 +08:00 [INF] File cleanup started at: "2025-02-19T07:15:03.8173770Z"
+2025-02-19 15:15:06.750 +08:00 [INF] Fetching files to delete...
+2025-02-19 15:15:06.755 +08:00 [INF] Calling API at endpoint: https://apidev.ubme.com/MenumamaService.svc/EventMgmt/GetFilesToDelete
+2025-02-19 15:15:09.117 +08:00 [INF] Start processing HTTP request GET https://apidev.ubme.com/MenumamaService.svc/EventMgmt/GetFilesToDelete
+2025-02-19 15:15:09.123 +08:00 [INF] Sending HTTP request GET https://apidev.ubme.com/MenumamaService.svc/EventMgmt/GetFilesToDelete
+2025-02-19 15:15:09.138 +08:00 [INF] Service has successfully started and is now running.
+2025-02-19 15:15:09.141 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-19 15:15:09.144 +08:00 [INF] Hosting environment: Development
+2025-02-19 15:15:09.145 +08:00 [INF] Content root path: D:\Business\UBMe2025\S3FileCleanupService\S3FileCleanup.Service
+2025-02-19 15:15:09.147 +08:00 [DBG] Hosting started
+2025-02-19 15:15:10.822 +08:00 [INF] Received HTTP response headers after 1689.2301ms - 200
+2025-02-19 15:15:10.827 +08:00 [INF] End processing HTTP request after 1715.2039ms - 200
+2025-02-19 15:15:44.481 +08:00 [DBG] Hosting starting
+2025-02-19 15:15:44.624 +08:00 [INF] Default Quartz.NET properties loaded from embedded resource file
+2025-02-19 15:15:44.666 +08:00 [DBG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2025-02-19 15:15:44.679 +08:00 [INF] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2025-02-19 15:15:44.686 +08:00 [INF] Quartz Scheduler created
+2025-02-19 15:15:44.688 +08:00 [INF] RAMJobStore initialized.
+2025-02-19 15:15:44.691 +08:00 [INF] Quartz Scheduler 3.13.1.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+2025-02-19 15:15:44.693 +08:00 [INF] Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+2025-02-19 15:15:44.712 +08:00 [INF] Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+2025-02-19 15:15:44.716 +08:00 [INF] JobFactory set to: S3FileCleanup.Shared.Helpers.SingletonJobFactory
+2025-02-19 15:15:44.746 +08:00 [INF] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2025-02-19 15:15:44.749 +08:00 [DBG] Batch acquisition of 0 triggers
+2025-02-19 15:15:44.751 +08:00 [INF] File cleanup service started at: "2025-02-19T07:15:44.7504142Z"
+2025-02-19 15:15:44.763 +08:00 [INF] File cleanup started at: "2025-02-19T07:15:44.7631958Z"
+2025-02-19 15:15:47.481 +08:00 [INF] Fetching files to delete...
+2025-02-19 15:15:47.485 +08:00 [INF] Calling API at endpoint: http://localhost:62476/MenumamaService.svc/EventMgmt/GetFilesToDelete
+2025-02-19 15:15:48.858 +08:00 [INF] Start processing HTTP request GET http://localhost:62476/MenumamaService.svc/EventMgmt/GetFilesToDelete
+2025-02-19 15:15:48.866 +08:00 [INF] Sending HTTP request GET http://localhost:62476/MenumamaService.svc/EventMgmt/GetFilesToDelete
+2025-02-19 15:15:48.923 +08:00 [INF] Service has successfully started and is now running.
+2025-02-19 15:15:48.928 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-19 15:15:48.929 +08:00 [INF] Hosting environment: Development
+2025-02-19 15:15:48.932 +08:00 [INF] Content root path: D:\Business\UBMe2025\S3FileCleanupService\S3FileCleanup.Service
+2025-02-19 15:15:48.935 +08:00 [DBG] Hosting started
+2025-02-19 15:16:08.330 +08:00 [INF] Received HTTP response headers after 19458.7359ms - 200
+2025-02-19 15:16:08.335 +08:00 [INF] End processing HTTP request after 19482.5403ms - 200
+2025-02-19 15:16:10.724 +08:00 [INF] API Response Content: {"results":{"Data":["f72e8e08-be1e-4ed1-87cc-02486cfbeba9.pdf","ace1489a-6988-4030-8011-25b6a36b40a1.pdf","f69987a8-533d-42a3-8452-0875477b2294.pdf","d7bba6e8-f8b1-4614-8350-fe7bade97302.pdf","f1b0dfad-bf1e-4490-b462-8521f6dda31e.pdf","784aeb93-0ce1-4e83-acf5-615418a096bd.pdf","332b1b4c-cd31-4f72-88a8-835b15884235.pdf","e4ff5473-5990-4996-aaf3-3974a1fc9312.pdf","c816f3d8-3264-4b50-9e2f-f0696df4ba80.pdf","f65e7d9f-54c6-4a14-83fa-87d41026df53.pdf","751ea487-92e2-44c2-ad92-76457132c0d5.pdf","7606dc0a-1bd5-46a2-8148-6845bd9e4f0e.pdf","d798ac88-1273-46e0-8bb2-c5d05935f182.pdf","7770ef0d-7703-4535-ba07-36f4501b19b7.pdf","56ebbd2f-5c8f-444b-b9e4-2544031a63b1.pdf","0523da51-a63e-49df-ad35-3d2e77029511.pdf","a07ff165-85ba-4e63-aa35-fb8e121a0bda.pdf","032b6875-0763-449e-819f-b8d813996ea2.pdf","66d02e68-055b-486d-8481-f6e5371d5397.pdf","c135de3b-743b-43a8-bdef-ac34a19a5b89.pdf","49827c98-4b53-4c75-9636-808701131549.pdf","1c94dce5-c7c2-41d7-990e-809d3b2564ad.pdf","08c3c8ef-fe02-42ef-b188-226023321d23.pdf","cf0ea702-b1b5-4b4e-b584-1f26a5aec3ff.pdf","4a7e16a8-2527-4b29-a79f-ca79ab44f431.pdf","9d86b8d1-73c9-4bb4-823e-0655ad9a8c9f.pdf","663af578-8cd1-4bc4-9997-1d834046e95f.pdf","a9be12f2-95b2-43a5-b3e9-984234eb9e2c.pdf","4228d3e8-112c-42e9-be59-50c1367a601c.pdf","67fa6cca-6778-4331-8ef6-5c1d4978bd72.pdf","2667e4b9-5373-4fce-a3e0-8566d169fd16.pdf","aad82bc6-f74c-4198-964a-96742a4ea8ca.pdf","4d1bca25-1d31-4515-951c-cd759ee1e1bd.pdf","4418f632-4980-4be5-853f-746342bf0d3f.pdf","f61e2779-b633-41fb-856a-fc1d852ff230.pdf","a1fbe2c0-ad32-4567-a1d5-ade701232a2d.pdf","9e81c9a5-d50e-411f-b99c-18d5e274301b.pdf","eaf78052-e5e9-47eb-8576-998b6b832355.pdf","4928d212-cf03-4c65-a0e1-5228ca1ac822.pdf","b643bbfd-90cc-49d1-8da0-98886d7e6e68.pdf","6cb76bb5-330f-4641-97e5-2b99d4a542ef.pdf","183dd8d5-d9c0-494e-b4ed-01b32bb123e0.pdf","d41d997e-0f1b-4924-9eae-69cf749aee3f.pdf","82cc7b05-bff8-431e-869e-0d5fea348304.pdf","8db6773c-fc19-43b1-8b90-5daa728b4c73.pdf","840989d1-0911-466b-a786-14aa31e09172.pdf","cd8bd036-89a3-472f-b802-26a86d4a9626.pdf","49b56bf9-1615-4e2e-9638-1d22a8645181.pdf","bcbed5f8-edf8-4934-bec5-1d3311dd0ee8.pdf","e9639e54-21d9-4231-9240-e2b417bae78a.pdf","d2a2c83f-3fd0-48e3-b90b-bddb74cae2f7.pdf","88d0bf6a-cf11-4d44-a81a-ce8b8ea6ebb2.pdf","9e0d124c-841a-491f-98af-b2bd245e6d74.pdf","b23127b6-40f0-4a83-9633-3872a0061387.pdf","01464708-b984-4d0d-9a5f-fbe4de2a941b.pdf","e8eff406-09c8-43e0-b7c2-28a309ec2617.pdf","141da30d-f914-4571-a623-7a8b85c2927b.pdf","6d423631-81a5-4bfc-8aa3-89a684837afb.pdf","1972b58f-4bb5-44f0-aab1-b23d0a9cb9fd.pdf","b24693fc-b354-4e9e-8227-6631fed7a9ca.pdf","b246f12c-98bc-45cd-82e8-cc157ee63d9f.pdf","43e17569-0310-4de6-968a-21ccad356ea8.pdf","26f36797-e0d5-4dee-bea4-c9f66acd8b6b.pdf","c95720e8-4c7e-4678-9011-796b8ed4e7e6.pdf","7c376cce-7371-43b7-a5de-9a2788352490.pdf","38ec3ea9-beaa-4c6e-a56b-feead8f25bcc.pdf","8182f8a7-c581-4a61-94c0-d81b56f46374.pdf","97110586-a282-46b8-a044-f4ce6e9a9843.pdf","98cb8468-ed50-442d-9088-0f8c3c2686cb.pdf","fddb4b31-7f3a-47a0-8e3f-ccc07c07187b.pdf","04843ec7-776e-4666-8517-f897ac3fc5c3.pdf","65c04cc9-0f73-4583-90bc-f6d8080ceb1f.pdf","8919d9fa-8e16-426b-be6f-a40ee4a99809.pdf","c15aeadd-386f-4b0e-bfee-c860ad333500.pdf","c0687113-1766-4fe5-ba77-9bf3d6f03ccf.pdf","7d5f723b-43a6-4785-afd3-6be95ee60742.pdf","1180e46a-7f60-4c12-b58b-5f057e072845.pdf","1180e46a-7f60-4c12-b58b-5f057e072826.pdf","1180e46a-7f60-4c12-b58b-5f057e072832.pdf","28b8d4bf-7c29-472f-a8e6-bcb8af9d91eb.pdf","2691d619-e46a-43f1-92bd-ed3ab2fc1d29.pdf","c414a1c5-9a54-473c-b869-2f2f1b596933.pdf","d1d5e127-97e8-4819-b6d1-7b57794b6eab.pdf","d79303e7-0a65-48da-9955-a6b1417b9af8.pdf","7f255627-3c64-4afd-b50b-3da1a2a97dff.pdf","0e63e05d-0e8d-4072-a0b5-36c40eccb94e.pdf","e491f77e-fcaa-4a52-a822-a014eb1bd668.pdf","3c2a0775-fcd3-497b-96e9-0ce1faba98f6.pdf","24695e44-2d4f-4fe0-8608-adba0a4fe193.pdf","f0c0cab2-d329-43d5-8b82-39cc4464dbb2.pdf","e069d81e-2a40-48ed-a533-fbb3a22a5b09.pdf","0ab1e969-1a31-423d-b60b-2667bdd06fe5.pdf","e1db8abf-ff13-4a1f-a69c-75bc0318068f.pdf","8fedb9c1-ce89-4298-846d-e94fadf46783.pdf","7647fc37-788e-47a6-9dd6-b41d3e7076ba.pdf","6eec7cac-b4f2-43cc-a5f4-d205894035af.pdf","0ec3cef7-6089-4ec2-992e-fa441cf5aa56.pdf","b9fb9f9c-8fa8-4dec-9f29-6ca5c607bcb2.pdf","d2a45c7b-088b-48ba-921c-2391c5d60962.pdf","61c122cd-4b2e-4f17-89e7-03007da42745.pdf"],"Message":"Files retrieved successfully.","ResponseCode":true}}
+2025-02-19 15:16:10.766 +08:00 [INF] Deleting file: UploadImages/EventImages/EventTicketsPDF/f72e8e08-be1e-4ed1-87cc-02486cfbeba9.pdf from bucket: ubme.com
+2025-02-19 15:16:10.771 +08:00 [INF] Calling API to delete S3 file. Endpoint: http://localhost:62476/MenumamaService.svc/EventMgmt/MarkFileAsDeleted, Bucket: ubme.com, Key: UploadImages/EventImages/EventTicketsPDF/f72e8e08-be1e-4ed1-87cc-02486cfbeba9.pdf
+2025-02-19 15:16:10.794 +08:00 [INF] Start processing HTTP request POST http://localhost:62476/MenumamaService.svc/EventMgmt/MarkFileAsDeleted
+2025-02-19 15:16:10.797 +08:00 [INF] Sending HTTP request POST http://localhost:62476/MenumamaService.svc/EventMgmt/MarkFileAsDeleted
+2025-02-19 15:16:14.634 +08:00 [DBG] Batch acquisition of 0 triggers
+2025-02-19 15:16:19.084 +08:00 [INF] Received HTTP response headers after 8284.9836ms - 200
+2025-02-19 15:16:19.088 +08:00 [INF] End processing HTTP request after 8294.1018ms - 200
+2025-02-19 15:16:19.091 +08:00 [INF] Successfully deleted S3 file: UploadImages/EventImages/EventTicketsPDF/f72e8e08-be1e-4ed1-87cc-02486cfbeba9.pdf from bucket: ubme.com
+2025-02-19 15:16:21.615 +08:00 [INF] Marking file as deleted in the database via API: f72e8e08-be1e-4ed1-87cc-02486cfbeba9.pdf
+2025-02-19 15:16:21.622 +08:00 [INF] Calling API to mark file as deleted. Endpoint: http://localhost:62476/MenumamaService.svc/EventMgmt/MarkFileAsDeleted, FileName: f72e8e08-be1e-4ed1-87cc-02486cfbeba9.pdf
+2025-02-19 15:16:23.658 +08:00 [INF] Start processing HTTP request POST http://localhost:62476/MenumamaService.svc/EventMgmt/MarkFileAsDeleted
+2025-02-19 15:16:23.661 +08:00 [INF] Sending HTTP request POST http://localhost:62476/MenumamaService.svc/EventMgmt/MarkFileAsDeleted
+2025-02-19 15:16:24.752 +08:00 [INF] Received HTTP response headers after 1088.9712ms - 200
+2025-02-19 15:16:24.757 +08:00 [INF] End processing HTTP request after 1099.3539ms - 200
+2025-02-19 15:16:24.762 +08:00 [INF] Successfully marked file as deleted: f72e8e08-be1e-4ed1-87cc-02486cfbeba9.pdf
+2025-02-19 15:16:24.764 +08:00 [INF] Successfully marked file as deleted: f72e8e08-be1e-4ed1-87cc-02486cfbeba9.pdf
+2025-02-19 15:16:24.766 +08:00 [INF] Successfully deleted file: f72e8e08-be1e-4ed1-87cc-02486cfbeba9.pdf
+2025-02-19 15:16:24.768 +08:00 [INF] Deleting file: UploadImages/EventImages/EventTicketsPDF/ace1489a-6988-4030-8011-25b6a36b40a1.pdf from bucket: ubme.com
+2025-02-19 15:16:24.770 +08:00 [INF] Calling API to delete S3 file. Endpoint: http://localhost:62476/MenumamaService.svc/EventMgmt/MarkFileAsDeleted, Bucket: ubme.com, Key: UploadImages/EventImages/EventTicketsPDF/ace1489a-6988-4030-8011-25b6a36b40a1.pdf
+2025-02-19 15:16:24.774 +08:00 [INF] Start processing HTTP request POST http://localhost:62476/MenumamaService.svc/EventMgmt/MarkFileAsDeleted
+2025-02-19 15:16:24.778 +08:00 [INF] Sending HTTP request POST http://localhost:62476/MenumamaService.svc/EventMgmt/MarkFileAsDeleted
+2025-02-19 15:16:26.169 +08:00 [INF] Received HTTP response headers after 1388.4664ms - 200
+2025-02-19 15:16:26.173 +08:00 [INF] End processing HTTP request after 1398.3835ms - 200
+2025-02-19 15:16:26.175 +08:00 [INF] Successfully deleted S3 file: UploadImages/EventImages/EventTicketsPDF/ace1489a-6988-4030-8011-25b6a36b40a1.pdf from bucket: ubme.com
+2025-02-19 15:16:39.186 +08:00 [INF] Marking file as deleted in the database via API: ace1489a-6988-4030-8011-25b6a36b40a1.pdf
+2025-02-19 15:16:39.195 +08:00 [INF] Calling API to mark file as deleted. Endpoint: http://localhost:62476/MenumamaService.svc/EventMgmt/MarkFileAsDeleted, FileName: ace1489a-6988-4030-8011-25b6a36b40a1.pdf
+2025-02-19 15:16:40.299 +08:00 [INF] Start processing HTTP request POST http://localhost:62476/MenumamaService.svc/EventMgmt/MarkFileAsDeleted
+2025-02-19 15:16:40.303 +08:00 [INF] Sending HTTP request POST http://localhost:62476/MenumamaService.svc/EventMgmt/MarkFileAsDeleted
+2025-02-19 15:16:42.124 +08:00 [INF] Received HTTP response headers after 1817.406ms - 200
+2025-02-19 15:16:42.127 +08:00 [INF] End processing HTTP request after 1828.8692ms - 200
+2025-02-19 15:16:42.130 +08:00 [INF] Successfully marked file as deleted: ace1489a-6988-4030-8011-25b6a36b40a1.pdf
+2025-02-19 15:16:42.132 +08:00 [INF] Successfully marked file as deleted: ace1489a-6988-4030-8011-25b6a36b40a1.pdf
+2025-02-19 15:16:42.134 +08:00 [INF] Successfully deleted file: ace1489a-6988-4030-8011-25b6a36b40a1.pdf
+2025-02-19 15:16:42.136 +08:00 [INF] Deleting file: UploadImages/EventImages/EventTicketsPDF/f69987a8-533d-42a3-8452-0875477b2294.pdf from bucket: ubme.com
+2025-02-19 15:16:48.083 +08:00 [DBG] Batch acquisition of 0 triggers
+2025-02-19 15:16:48.086 +08:00 [INF] Calling API to delete S3 file. Endpoint: http://localhost:62476/MenumamaService.svc/EventMgmt/MarkFileAsDeleted, Bucket: ubme.com, Key: UploadImages/EventImages/EventTicketsPDF/f69987a8-533d-42a3-8452-0875477b2294.pdf
+2025-02-19 15:16:48.092 +08:00 [INF] Start processing HTTP request POST http://localhost:62476/MenumamaService.svc/EventMgmt/MarkFileAsDeleted
+2025-02-19 15:16:48.095 +08:00 [INF] Sending HTTP request POST http://localhost:62476/MenumamaService.svc/EventMgmt/MarkFileAsDeleted
+2025-02-19 15:16:55.134 +08:00 [INF] Received HTTP response headers after 7036.5ms - 200
+2025-02-19 15:16:55.139 +08:00 [INF] End processing HTTP request after 7046.0999ms - 200
+2025-02-19 15:16:55.141 +08:00 [INF] Successfully deleted S3 file: UploadImages/EventImages/EventTicketsPDF/f69987a8-533d-42a3-8452-0875477b2294.pdf from bucket: ubme.com
+2025-02-19 15:17:06.000 +08:00 [INF] Marking file as deleted in the database via API: f69987a8-533d-42a3-8452-0875477b2294.pdf
+2025-02-19 15:17:06.004 +08:00 [INF] Calling API to mark file as deleted. Endpoint: http://localhost:62476/MenumamaService.svc/EventMgmt/MarkFileAsDeleted, FileName: f69987a8-533d-42a3-8452-0875477b2294.pdf
+2025-02-19 15:17:06.947 +08:00 [INF] Start processing HTTP request POST http://localhost:62476/MenumamaService.svc/EventMgmt/MarkFileAsDeleted
+2025-02-19 15:17:06.951 +08:00 [INF] Sending HTTP request POST http://localhost:62476/MenumamaService.svc/EventMgmt/MarkFileAsDeleted
+2025-02-19 15:17:08.512 +08:00 [INF] Received HTTP response headers after 1557.9968ms - 200
+2025-02-19 15:17:08.518 +08:00 [INF] End processing HTTP request after 1571.4158ms - 200
+2025-02-19 15:17:08.522 +08:00 [INF] Successfully marked file as deleted: f69987a8-533d-42a3-8452-0875477b2294.pdf
+2025-02-19 15:17:08.524 +08:00 [INF] Successfully marked file as deleted: f69987a8-533d-42a3-8452-0875477b2294.pdf
+2025-02-19 15:17:08.529 +08:00 [INF] Successfully deleted file: f69987a8-533d-42a3-8452-0875477b2294.pdf
+2025-02-19 15:17:12.670 +08:00 [INF] Deleting file: UploadImages/EventImages/EventTicketsPDF/d7bba6e8-f8b1-4614-8350-fe7bade97302.pdf from bucket: ubme.com
