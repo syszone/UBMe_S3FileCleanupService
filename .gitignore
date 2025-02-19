@@ -1,1 +1,11 @@
-".vs/"  "bin/"  "obj/"  "Logs/" 
+# Ignore Visual Studio files
+.vs/
+*.user
+*.suo
+
+# Ignore build artifacts and temporary files
+bin/
+obj/
+*.cache
+*.nuget.cache
+project.assets.json
