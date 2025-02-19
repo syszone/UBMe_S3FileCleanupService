@@ -79,6 +79,8 @@ public class FileDeletionService
                 {
                     _logger.LogError(ex, "Error occurred while deleting file: {FileName}", file);
                 }
+                
+                await Task.Delay(1000);
             }
 
             _logger.LogInformation("File cleanup completed.");
